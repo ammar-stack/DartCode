@@ -1,0 +1,34 @@
+import 'package:learningdart/learningdart.dart' as learningdart;
+
+void main() {
+  //Data types in DART
+  //Data Types include numbers,string,bool,list,map
+  //Below are some data types....
+  int age = 23;
+  double height = 185.3;
+  String fname = " Mohammad ";
+  String lname = " Ammar ";
+  bool isMarried = false;
+  //lists are growable and one with fixed length
+  //following is the list with fixed length
+  var Family = ["Ammar","Muneeba","Hammad"];
+
+  var myList1 = [25, 63, 84];  
+  print(myList1);
+  //Maps are as follows
+  var details = new Map(); 
+  details['Usrname'] = 'admin'; 
+  details['Password'] = 'admin@123'; 
+
+
+  String FullName = "My full name is $fname $lname";
+  String myheight = "My height is $height";
+  String myage = "My age is $age";
+  String MaritalStatus = "My marital status is $isMarried";
+  print(FullName);
+  print(myheight);
+  print(myage);
+  print(MaritalStatus);
+  print(Family);
+  print(details);
+}
